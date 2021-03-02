@@ -1,11 +1,21 @@
 print ("What is your name?")
+n = input()
 
-#Variable is a container whitch can store data for us in the memory (string, integfloate, bool)
+print ("Do you have a dog")
+dog = bool(input())
 
-name = input()
-print("What is your age?")
-age = int(input())
-print('What is your bank balance?')
-balance = float(input())
 
-print("welcome {}. Your are sayd to be {} years old. Tour balance is {}".format(name,age,balance))
+if len(n) > 9 and dog == "True" :
+
+  print("You  have a very long name")
+  print("Your name contains {} letters".format(len(n)))
+else:
+  print("You name is short")
+
+
+
+print("This is the end of program!")
+
+
+
+
