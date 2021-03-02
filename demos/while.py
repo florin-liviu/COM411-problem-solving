@@ -11,11 +11,3 @@ while i < x:
   print("\u27bd", i)
   i = i + 1
 print("We left the loop")
-
-
-
-
-
-
-
-
